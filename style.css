@@ -1,0 +1,88 @@
+.cont{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #10dbc7
+}
+.m{
+  flex-direction: column;
+   
+    height: 400px;
+    width: 300px;
+   display: flex;
+ 
+
+ 
+}
+.h {
+ 
+  color: white;
+}
+.z{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'TicTacToe', sans-serif;
+    height: 100px;
+    width: 100px;
+   max-width: 100%;
+
+}
+.t {
+  display: flex;
+  
+  width: 100%;
+ 
+}
+.z1,.z2,.z4,.z5{
+    border-right: 5px solid #0db1a0;
+    border-bottom: 5px solid #0db1a0;
+
+}
+.z3,.z6{
+    border-bottom: 5px solid #0db1a0;
+}
+.z7,.z8{
+    border-right: 5px solid #0db1a0;
+}
+
+  .w{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+  }
+  .btn{
+    width: 120px;
+    height: 50px;
+    
+    border-radius:20px;
+    color: #10dbc7;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    max-width: 100%;
+  }
+  .bt{
+    width: 120px;
+    height: 50px;
+    
+    border-radius: 20px;
+    color: #10dbc7;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    max-width: 100%;
+
+  }
+  @media screen and (max-width: 460px) {
+    .bt,.btn {
+      width:90px ;
+      height: 30px;
+      font-size:12px ;
+    }
+  }
