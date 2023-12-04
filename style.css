@@ -4,7 +4,7 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   background-color: #10dbc7
+   
 }
 .m{
   flex-direction: column;
@@ -16,11 +16,13 @@
    
 }
 body{
-  background-color:  #10dbc7;
+ background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-math-education-blue-plaid-background-picture-image_1176967.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .h {
  
-  color: white;
+  color: #086d63;
 }
 .z{
     display: flex;
