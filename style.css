@@ -12,9 +12,11 @@
     height: 400px;
     width: 300px;
    display: flex;
- 
 
- 
+   
+}
+body{
+  background-color:  #10dbc7;
 }
 .h {
  
